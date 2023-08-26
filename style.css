@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    position: fixed;
+    
+    width: 100%;
+    height: 100%;
+   background-image: url(assest/restaurant.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+  
+
+
+}
+
+
+.head {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    font-weight: 1000;
+    
+
+}
+.head  li a{
+    margin-left: 200px;
+    text-decoration: none;
+    color: #321eb6;
+    font-size: large;
+    font-weight: 700;
+    
+    
+    
+}
+.head li a:hover{
+    color: #ff505f;
+}
+
+.button{
+    display:flex;
+    margin: 0 70px;
+    padding: 1em;
+    font-size: 15px;
+    font-weight: 700;
+    color:#ffffff ;
+    border: none;
+    background-color:#ff505f;
+}
+.button:hover{
+    background-color: #30e283;
+
+}
+.main h1{
+    font-size: 90px;
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 100px;
+    padding: 10px ;
+    align-items: center;
+    justify-content: center;
+}
+.read{
+    
+    padding: 1em;
+    margin: 0 700px;
+    color:#ffffff ;
+    border: none;
+    background-color:#ff505f;
+}
+.read:hover{
+    background-color: #30e283;
+}
+.foot img{
+    margin:150px 1400px;
+}
+
+
+
+
